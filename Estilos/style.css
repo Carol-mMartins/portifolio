@@ -84,3 +84,26 @@ body{
         width: auto;
     }
 }
+@media (max-width: 770px){
+    .cabecalho__menu{
+        padding: 0% 5%;
+    }
+    .cabecalho__menu__link{
+        font-size: 1rem;
+    }
+    .apresentacao__conteudo__titulo{
+        font-size: 2.5rem;
+    }
+    .apresentacao__conteudo__texto__info{
+        display: flex;
+        justify-content: flex-end;
+        text-align: right;
+        font-size: 1rem;
+    }
+    .apresentacao__conteudo__texto{
+        font-size: 1rem;
+    }
+    .rodape{
+        font-size: 1rem;
+    }
+}
